@@ -1,20 +1,36 @@
-tanweicheng
-java android javaee
+git config --global user.name "tanweicheng"
+git config --global user.email "892865384@qq.com"
+git 下载：
+https://git-for-windows.github.io
+http://pan.baidu.com/s/1skFLrMt#path=%252Fpub%252Fgit
+命令：
+第一步：
+	在一个合适的地方：
+	1创建目录：mkdir learngit。
+	2 进入 cd learngit
+	3显示目录 ：pwd
+第二步：
+	git init 将该目录变成Git可以管理的创库。
+	创建完后目录有隐藏文件。
 
+第三步：
+	1提交文件：git add readme.txt
+	2 用命令git commit 告诉Git。
+	把文件提交到仓库。
+	git commit -m "wrote a readme file".
+简单解释一下git commit命令，-m后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录。
 
+另外还可以多个提交文件：
+	git add file1.txt
+	git add file2.txt file3.txt
+	git commit -m "add 3 files.".
 
+时光机穿梭
 
-
-
-
-
-
-
-
-
-
-
-
+git status ：命令可以让我们时刻掌握仓库当前的状态
+查看是否被修改过。
+		基本上：readme.txt被修改过了，但还没有准备提交的修改。
+git diff ：查看不同之处。
 
 
 
